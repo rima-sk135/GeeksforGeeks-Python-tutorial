@@ -35,3 +35,23 @@ print(type(age))
 #Now typecasting the age variable as an integer
 age = int(input("Enter your age: "))
 print(type(age))
+
+#Python operators = Operators in Python are symbols used to perform operations on values and variables, such as calculations, comparisons, and logical checks.
+
+#1. Arithmetic Operators: These are used to perform basic mathematical operations like addition, subtraction, multiplication, and division.
+#Precedence of Arithmetic Operators are as follows: P - Parentheses E - Exponentiation M - Multiplication (Multiplication and division have the same precedence) 
+# D - Division A - Addition (Addition and subtraction have the same precedence) S - Subtraction
+
+a = 9
+b = 4
+add = a + b 
+sub = a - b 
+mul = a * b 
+mod = a % b 
+exp = a ** b 
+
+print(add) 
+print(sub) 
+print(mul) 
+print(mod) 
+print(exp)
